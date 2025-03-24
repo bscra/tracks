@@ -1,0 +1,14 @@
+{
+  "locn": "https://github.com/bscra/tracks/track-index.json",
+  "index": [
+    {
+      "name": "Castle",
+      "file": "track-castle.json"
+    },
+    {
+      "name": "Bolton",
+      "file": "track-bolton.json"
+    }
+  ],
+  "updated": "2024-04-03 12:12;12"
+}
