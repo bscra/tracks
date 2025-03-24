@@ -1,0 +1,75 @@
+{
+  "lanesep-units": "inches",
+  "geo": {
+    "lat": 53.28902,
+    "long": -3.479825
+  },
+  "lanes": [
+    "red",
+    "yellow",
+    "white",
+    "blue",
+    "black"
+  ],
+  "records": [
+    {
+      "time": "19:30:00",
+      "date": "2021-11-11",
+      "event": "Club night",
+      "lane": "Red",
+      "controller": "Carsteen 4.2",
+      "car": "3800",
+      "person": "Martin E",
+      "lap_sec": "3.2"
+    },
+    {
+      "time": "19:30:00",
+      "date": "2021-11-11",
+      "event": "Club night",
+      "lane": "Yellow",
+      "controller": "Carsteen 4.2",
+      "car": "Genesis",
+      "person": "Martin E",
+      "lap_sec": "4.3"
+    }
+  ],
+  "length": 90.5,
+  "segments": [
+    {
+      "y": 456,
+      "x": 123
+    },
+    {
+      "y": 8910,
+      "x": 123
+    }
+  ],
+  "name": "Bolton Slot Car Club",
+  "rotations": [
+    {
+      "t": "White",
+      "f": "Red"
+    },
+    {
+      "t": "Black",
+      "f": "White"
+    },
+    {
+      "t": "Blue",
+      "f": "Yellow"
+    },
+    {
+      "t": "Yellow",
+      "f": "Blue"
+    },
+    {
+      "t": "Blue",
+      "f": "Black"
+    }
+  ],
+  "direction": "acw",
+  "lanesep": 10.5,
+  "length-units": "imperial",
+  "address": "Restricted",
+  "svgfile": "https://api.github.com/repos/adrianblakey/slot-car-tracks/contents/castle.svg"
+}
