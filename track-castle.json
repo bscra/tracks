@@ -68,7 +68,7 @@
     }
   ],
   "direction": "acw",
-  "lanesep": 10.5,
+  "lanesep": 4.0,
   "length-units": "imperial",
   "address": "Rhuddlan, Rhyl LL18 5UZ",
   "svgfile": "https://api.github.com/repos/adrianblakey/slot-car-tracks/contents/castle.svg"
