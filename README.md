@@ -4,11 +4,11 @@ This is an attempt to represent all the BSCRA (and world's?) slot car tracks in 
 
 Ideally this should all be saved and maintained in a secure database, however we need to start somewhere.
 
-The track-index.json is meant to be an index into the individual track files. This approach was chosen in preference to putting every track say into a single json file, in order to make the datasert more accessible and maintainable.
+The track-index.json is an index into the individual track files. This approach was chosen in preference to putting every track say into a single json file, in order to make the dataset more accessible and maintainable.
 
 ## Track Index
 
-Should be self evident, it contains meta data that comprises: the searchable name of the track, a URL "pointer" where this index and the specific track files shall be found.
+Should be self evident, it contains meta data that comprises: the searchable name of the track, a URL "pointer" where this index and the specific track files shall be found. The updated date is a way for a client to compare its locally saved copy with the saved file and if the dates differ its a signal for it to reload values from the server. Perhpas later this could contain more details about which specific files might have changed.
 
 ## Track File
 
@@ -20,4 +20,4 @@ Tracks are generally split and marked into segments that are ~1/100 of the lane 
 
 So the red lane main straight at Castle could be represented by say a starting reference point of 0,0, the first segment marker at 11.5,0 etc. If the track could be mapped there would be 99 points per lane - one for each segment.
 
-For a more detailed representation of the track, each lane could be represented more finely by collecting points every centimeter say. These could them be chained together to build a vector, graphic representation of each lane.
+For a more detailed representation of the track, each lane could be represented more finely by collecting points every centimeter say. These could then be chained together to build a vector, graphic representation of each lane.
