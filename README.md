@@ -6,6 +6,8 @@ Ideally this should all be saved and maintained in a secure database, however we
 
 The track-index.json is an index into the individual track files. This approach was chosen in preference to putting every track say into a single json file, in order to make the dataset more accessible and maintainable.
 
+It's exposed via github pages on the main branch so it can be read from https://bscra.github.io/tracks/track-index.json
+
 ## Track Index
 
 Should be self evident, it contains meta data that comprises: the searchable name of the track, a URL "pointer" where this index and the specific track files shall be found. The updated date is a way for a client to compare its locally saved copy with the saved file and if the dates differ its a signal for it to reload values from the server. Perhpas later this could contain more details about which specific files might have changed.
