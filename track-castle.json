@@ -36,12 +36,12 @@
   "length": 90.5,
   "segments": [
     {
-      "y": 0,
-      "x": 0
+      "y": 456,
+      "x": 123
     },
     {
-      "y": 0,
-      "x": 11.5
+      "y": 8910,
+      "x": 123
     }
   ],
   "name": "Castle Raceway",
@@ -68,8 +68,8 @@
     }
   ],
   "direction": "acw",
-  "lanesep": 4.0,
+  "lanesep": 4,
   "length-units": "imperial",
   "address": "Rhuddlan, Rhyl LL18 5UZ",
-  "svgfile": "https://api.github.com/repos/adrianblakey/slot-car-tracks/contents/castle.svg"
+  "svgfile": "https://bscra.github.io/tracks/castle.svg"
 }
